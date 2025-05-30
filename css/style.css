@@ -1,33 +1,553 @@
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("../fonts/AGaramondPro-Bold.eot");
+  src: url("../fonts/AGaramondPro-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AGaramondPro-Bold.woff2") format("woff2"),
+    url("../fonts/AGaramondPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.banner nav {
-  background: #f5f5f5;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("../fonts/AGaramondPro-Italic.eot");
+  src: url("../fonts/AGaramondPro-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AGaramondPro-Italic.woff2") format("woff2"),
+    url("../fonts/AGaramondPro-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
-.banner nav h1 a {
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("../fonts/AGaramondPro-Regular.eot");
+  src: url("../fonts/AGaramondPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AGaramondPro-Regular.woff2") format("woff2"),
+    url("../fonts/AGaramondPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("../fonts/AGaramondPro-BoldItalic.eot");
+  src: url("../fonts/AGaramondPro-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AGaramondPro-BoldItalic.woff2") format("woff2"),
+    url("../fonts/AGaramondPro-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  margin: 0rem 0rem 0rem 0rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
   text-decoration: none;
-  color: #333;
+  color: black;
+  font-family: "Adobe Garamond Pro";
+  font-weight: normal;
+  font-style: normal;
 }
 
+html {
+  font-size: 10px;
+}
+
+a:hover {
+  color: #958f77;
+  opacity: 0.9;
+  transition: 0.1s;
+}
+
+a:hover span {
+  color: #958f77;
+  opacity: 0.9;
+  transition: 0.1s;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Banner takes the whole page */
+.banner {
+  width: 100%;
+  background: #fbfbf9;
+}
+
+/* Coloured banner */
+nav {
+  display: block;
+  width: 65%;
+  margin: auto;
+  padding: 1.6rem 0 0 0rem;
+  background: #fbfbf9;
+  color: rgb(35, 35, 35);
+  height: 10vw;
+}
+
+/* Ben Kawam ("home" link) on main page */
+#ben-kawam-home a {
+  color: #847e69;
+  display: inline-block;
+  font-size: 4vw;
+  transform: translateY(50%);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Unordered list = the navigation float */
 nav ul {
+  float: right;
   list-style: none;
+  transform: translateY(-10%);
+}
+
+/* Elements of the ul */
+nav li {
+  float: left;
+  margin: 0rem 0rem 0rem 2.8vw;
+}
+
+/* Size of elements of ul */
+nav a {
+  font-size: 2.1vw;
+}
+
+/* Colour of targeted link */
+.tab-target {
+  color: #847e69;
+}
+
+/* Container for the flex images on the home page */
+.container {
   display: flex;
-  gap: 1em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  height: 40%;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
+  margin-top: 5vmax;
+  flex-flow: inherit;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
+/* Details for the single images */
+.single-img {
+  margin: 0rem 4rem 0rem 0rem;
 }
 
+/* Text under these images */
+.text-below-images {
+  display: block;
+  font-size: 2.5rem;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* Text under the illustration image */
+#text-illustration {
+  text-align: center;
+}
+
+/* Footer home page */
+footer {
+  clear: both;
+  bottom: 0px;
+  margin-left: 17.5%;
+  padding-bottom: 1%;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+header {
+  clear: both;
+  top: 0px;
+  padding-top: 1%;
+  position: absolute;
+}
+
+/* ABOUT */
+
+/* Ben Kawam on non-home pages */
+.ben-kawam-banner a {
+  display: inline-block;
+  font-size: 4vw;
+  transform: translateY(50%);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Text in about */
+.main-about {
+  float: left;
+  margin: -18% 45% 0 17.5%;
+  font-size: 2.2rem;
+}
+
+/* Text italic in about */
+.main-about i {
+  font-size: 2.2rem;
+}
+
+/* Text links in about */
+.link-in-text {
+  font-size: 2.2rem;
+  font-style: italic;
+  color: #4c0f35;
+}
+
+/* CV text in about */
+.short-cv {
+  margin: 6rem 0 3rem 0;
+}
+
+/* CV text italic in about */
+.short-cv li {
+  list-style: none;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* CV titles in about */
+.title-cv {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* CV text in about */
+.short-cv ul {
+  padding: 0;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+/* CV dates in about */
+.dates-cv {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: #6f2741;
+}
+
+/* CV horizontal line below */
+#hl-about {
+  border: 0;
+  height: 0.1rem;
+  background-color: #dcd6ce;
+}
+
+.full-cv {
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.full-cv a i {
+  margin-bottom: 4rem;
+  font-family: "Adobe Garamond Pro";
+  font-weight: normal;
+  font-style: italic;
+  color: #847e69;
+  font-size: 2.2rem;
+}
+
+#rounded-ben {
+  display: inline-block;
+  margin-left: 63%;
+  margin-right: 15%;
+  transform: translateY(28%);
+  width: 20%;
+}
+
+.email-img {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.email-img a {
+  margin-bottom: 4rem;
+  font-family: "Adobe Garamond Pro";
+  font-weight: normal;
+  font-style: italic;
+  color: #8d8a7c;
+  font-size: 2.2rem;
+}
+
+.mail-under-pic {
+  float: right;
+  margin-right: -25%;
+  transform: translateY(47rem);
+  width: 20%;
+}
+
+/* RESEARCH */
+.research {
+  width: 48%;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+/* Titles (red) */
+.research h2 {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: #6f2741;
+}
+
+/* Titles for diary */
+.research h2 {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: #6f2741;
+}
+
+/* Titles for diary */
+.diary-titles {
+  margin-top: 3rem;
+  font-size: 3.1rem;
+  font-weight: normal;
+  color: #6f2741;
+}
+
+/* Substitles (grey) */
+.research h3 {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 3rem;
+  color: #555345;
+}
+
+/* Publications (text) */
+.research p a {
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+}
+
+.research-bold {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.research-italics {
+  font-style: italic;
+  font-size: 2.2rem;
+}
+
+/* Lines between titles */
+.title-hl {
+  border: 0;
+  height: 0.1rem;
+  background-color: #dcd6ce;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* blank vertical space */
+.vspace {
+  border: 0;
+  height: 1rem;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.vspace2 {
+  border: 0;
+  height: 1rem;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+/* Projects (text) */
+.research p {
+  margin-bottom: 3rem;
+  font-size: 2.2rem;
+}
+
+.research-links {
+  color: #601d40;
+}
+
+#sticklelab {
+  font-style: italic;
+}
+
+/* Double images - not displayed now */
+.research-img-large {
+  width: 100%;
+  margin-bottom: 5rem;
+  display: inline-flex;
+  display: none;
+}
+
+/* Single images */
+.research-img-small {
+  width: 100%;
+  margin-bottom: 5rem;
+  display: inline-flex;
+}
+
+/* Single images */
+.research-img-diary {
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: -2rem;
+  display: inline-flex;
+}
+
+/* Dots separating research projects */
+.separator {
+  margin: auto;
+  display: flex;
+  width: 6rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
+}
+
+/* Illustrations */
+
+.container-ill {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30%;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 10rem;
+  margin-bottom: 12rem;
+  flex-flow: inherit;
+}
+
+.single-img-ill {
+  margin: 0rem 6% 0rem 6%;
+}
+
+.hr-illustrations {
+  width: 120%;
+  border: 0;
+  height: 0.1rem;
+  background-color: #dcd6ce;
+  margin: auto;
+  transform: translateX(-7%);
+}
+
+.text-under-illustrations {
+  text-align: center;
+}
+
+.text-PNG-illustrations {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10% 10%;
+  color: #7d6b4f;
+  font-size: 2.2rem;
+}
+
+.text-PDF-illustrations {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10% 10%;
+  color: #4c0f35;
+  font-size: 2.2rem;
+}
+
+.text-PNG-illustrations-div {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10% 10%;
+  color: #c1beba;
+  font-size: 2.2rem;
+}
+
+.text-PDF-illustrations-div {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 10% 10%;
+  color: #c1beba;
+  font-size: 2.2rem;
+}
+
+#bottom-illustrations {
+  position: absolute;
+  width: 100%;
+  background: #fbfbfb;
+  border: 0px;
+  height: 25rem;
+  margin-bottom: 0px;
+}
+
+.text-bottom-illustrations {
+  position: absolute;
+  font-size: 1.8rem;
+  font-style: italic;
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  margin-top: 3rem;
+}
+
+.text-bottom-illustrations a {
+  font-weight: bold;
+  color: #601d40;
+}
+
+strong {
+  font-weight: 600;
+  font-style: italic;
+  color: #601d40;
+}
+
+.research h1 {
+  margin: auto;
+  margin-top: -6rem;
+  margin-bottom: 0rem;
+  font-size: 5.8rem;
+  color: #6a2b54;
+  font-family: "Adobe Garamond Pro", "Sans Serif";
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  color: #000000;
+}
+
+#diary-update {
+  text-align: center;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 3em;
+  font-size: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #756e5a;
+}
