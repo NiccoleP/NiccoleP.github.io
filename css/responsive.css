@@ -1,0 +1,369 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    display: block;
+    width: 90%;
+    padding: 1.6rem 0 0 0rem;
+    background: #fbfbf9;
+    color: rgb(35, 35, 35);
+    height: 25vw;
+    text-align: center;
+  }
+
+  /* Coloured banner Ben Kawam */
+
+  #ben-kawam-home a {
+    color: #847e69;
+    display: inline-block;
+    transform: translateY(0%);
+    font-size: 10vw;
+  }
+
+  /* Banner ul */
+  nav ul {
+    margin: 2rem 0 0 0;
+    position: relative;
+    right: 50%;
+  }
+
+  /* Banner li */
+  nav li {
+    margin: 0rem 2.8vw 0rem 2.8vw;
+    list-style: none;
+    position: relative;
+    left: 50%;
+  }
+
+  /* Banner li anchors */
+  nav li a {
+    font-size: 3.5vw;
+  }
+
+  /* Conianer images and text */
+  .container {
+    width: 70%;
+    height: 40%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-img {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+  .text-below-images {
+    margin-bottom: 5rem;
+  }
+
+  #text-illustration {
+    text-align: left;
+  }
+
+  #line {
+    display: none;
+  }
+
+  footer {
+    clear: both;
+    bottom: 0px;
+    margin-left: 15%;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  /* ABOUT */
+
+  /* Coloured banner */
+  .ben-kawam-banner a {
+    display: inline-block;
+    transform: translateY(0%);
+    font-size: 10vw;
+  }
+
+  #rounded-ben {
+    width: 45%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 8rem;
+    margin-top: -7rem;
+  }
+
+  .email-img a {
+    font-size: 2.6rem;
+  }
+
+  .main-about {
+    margin-top: 6rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* RESEARCH */
+
+  .research {
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  #research-baboon-img {
+    background-image: url("img/research_images-baboons");
+  }
+
+  .research-img-large {
+    display: none;
+  }
+
+  .research-img-small {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  /* ILLUSTRATIONS */
+
+  .illustrations-tot {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .container-ill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .hr-illustrations {
+    display: inline-block;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border: 0;
+    height: 0.3rem;
+    background-color: #dcd6ce;
+    transform: translateX(0%);
+    transform: translateY(-3rem);
+  }
+
+  .text-under-illustrations {
+    text-align: center;
+    transform: translateY(-3vw);
+    margin-bottom: 4rem;
+  }
+
+  .text-PNG-illustrations {
+    font-size: 3vw;
+  }
+
+  .text-PDF-illustrations {
+    font-size: 3vw;
+  }
+
+  .text-PNG-illustrations-div {
+    font-size: 3vw;
+  }
+
+  .text-PDF-illustrations-div {
+    font-size: 3vw;
+  }
+
+  .text-bottom-illustrations {
+    left: 7.5%;
+    width: 85%;
+  }
+
+  a:hover {
+    color: #958f77;
+    opacity: 0.9;
+    transition: 0.1s;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* Coloured banner */
+  nav {
+    display: block;
+    width: 90%;
+    padding: 1.6rem 0 0 0rem;
+    background: #fbfbf9;
+    color: rgb(35, 35, 35);
+    height: 40vw;
+    text-align: center;
+  }
+
+  /* Coloured banner Ben Kawam */
+
+  #ben-kawam-home a {
+    color: #847e69;
+    display: inline-block;
+    transform: translateY(0%);
+    font-size: 15vw;
+  }
+
+  /* Banner ul */
+  nav ul {
+    margin: 2rem 0 0 0;
+    position: relative;
+    right: 50%;
+  }
+
+  /* Banner li */
+  nav li {
+    margin: 0rem 2.8vw 0rem 2.8vw;
+    list-style: none;
+    position: relative;
+    left: 50%;
+  }
+
+  /* Banner li anchors */
+  nav li a {
+    font-size: 5.5vw;
+  }
+
+  /* Conianer images and text */
+  .container {
+    width: 85%;
+    height: 40%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .single-img {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+  .text-below-images {
+    margin-bottom: 5rem;
+  }
+
+  #text-illustration {
+    text-align: left;
+  }
+
+  #line {
+    display: none;
+  }
+
+  footer {
+    clear: both;
+    bottom: 0px;
+    margin-left: 7.5%;
+    padding-bottom: 1%;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  /* ABOUT */
+
+  /* Coloured banner */
+  .ben-kawam-banner a {
+    text-align: center;
+    padding: 0rem 0 0rem 0rem;
+    font-size: 15vw;
+    color: #000000;
+    transform: translateY(0%);
+  }
+
+  #rounded-ben {
+    width: 65%;
+    margin-top: -20%;
+    margin-bottom: 8rem;
+    margin-left: 15%;
+    margin-right: 7.5%;
+    margin-top: -15%;
+  }
+
+  .main-about {
+    margin: 10% 7.5% 0 7.5%;
+  }
+
+  /* RESEARCH */
+
+  .research {
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+  }
+
+  #research-baboon-img {
+    background-image: url("img/research_images-baboons");
+  }
+
+  .research-img-large {
+    display: none;
+  }
+
+  .research-img-small {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  /* ILLUSTRATIONS */
+
+  .illustrations-tot {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .container-ill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .text-under-illustrations {
+    text-align: center;
+    transform: translateY(-3vw);
+    margin-bottom: 4rem;
+  }
+
+  /* text PNG downloadable */
+  .text-PNG-illustrations {
+    font-size: 6vw;
+  }
+
+  /* text PDF downloadable */
+  .text-PDF-illustrations {
+    font-size: 6vw;
+  }
+
+  /* text PNG non-downloadable */
+  .text-PNG-illustrations-div {
+    font-size: 6vw;
+  }
+
+  /* text PDF non-downloadable */
+  .text-PDF-illustrations-div {
+    font-size: 6vw;
+  }
+}
+
+/* Small screen for messenger */
+@media screen and (max-width: 360px) {
+  nav li {
+    margin: 0rem 2.1vw 0rem 2.1vw;
+  }
+}
