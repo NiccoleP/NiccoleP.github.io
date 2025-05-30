@@ -93,8 +93,7 @@ nav {
   height: 10vw;
 }
 
-/* Ben Kawam ("home" link) on main page */
-#ben-kawam-home a {
+#niccole-porras-home a {
   color: #847e69;
   display: inline-block;
   font-size: 4vw;
@@ -180,8 +179,7 @@ header {
 
 /* ABOUT */
 
-/* Ben Kawam on non-home pages */
-.ben-kawam-banner a {
+.niccole-porras-banner a {
   display: inline-block;
   font-size: 4vw;
   transform: translateY(50%);
@@ -268,7 +266,7 @@ header {
   font-size: 2.2rem;
 }
 
-#rounded-ben {
+#rounded-niccole {
   display: inline-block;
   margin-left: 63%;
   margin-right: 15%;
