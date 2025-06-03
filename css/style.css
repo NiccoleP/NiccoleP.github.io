@@ -189,15 +189,23 @@ header {
 }
 
 /* Text in about */
-.main-about {
+/*.main-about {
   float: left;
   margin: -18% 45% 0 17.5%;
   font-size: 3.2rem;
+}*/
+
+.main-about {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 3.2rem;
+  text-align: center;
 }
+
 
 /* Text italic in about */
 .main-about i {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
 }
 
 /* Text links in about */
@@ -285,7 +293,7 @@ header {
   font-weight: normal;
   font-style: italic;
   color: #8d8a7c;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
 }
 
 .mail-under-pic {
