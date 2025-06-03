@@ -9,8 +9,9 @@
     text-align: center;
   }
 
+  /* Coloured banner  */
 
-  #niccole-home a {
+  #niccole-porras-home a {
     color: #847e69;
     display: inline-block;
     transform: translateY(0%);
@@ -34,7 +35,7 @@
 
   /* Banner li anchors */
   nav li a {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
 
   /* Conianer images and text */
@@ -201,7 +202,7 @@
     text-align: center;
   }
 
-  /* Coloured banner Ben Kawam */
+  /* Coloured banner B */
 
   #niccole-porras-home a {
     color: #847e69;

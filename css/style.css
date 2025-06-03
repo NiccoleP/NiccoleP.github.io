@@ -93,6 +93,7 @@ nav {
   height: 10vw;
 }
 
+/* niccole ("home" link) on main page */
 #niccole-porras-home a {
   color: #847e69;
   display: inline-block;
@@ -179,6 +180,7 @@ header {
 
 /* ABOUT */
 
+/* niccole on non-home pages */
 .niccole-porras-banner a {
   display: inline-block;
   font-size: 4vw;
@@ -189,19 +191,11 @@ header {
 }
 
 /* Text in about */
-/*.main-about {
+.main-about {
   float: left;
   margin: -18% 45% 0 17.5%;
-  font-size: 3.2rem;
-}*/
-
-.main-about {
-  max-width: 800px;
-  margin: 0 auto;
-  font-size: 3.2rem;
-  text-align: center;
+  font-size: 2.2rem;
 }
-
 
 /* Text italic in about */
 .main-about i {
@@ -284,7 +278,7 @@ header {
 
 .email-img {
   text-align: center;
-  margin-top: 0.8rem;
+  margin-top: 1.2rem;
 }
 
 .email-img a {
