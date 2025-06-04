@@ -89,7 +89,7 @@ nav {
   margin: auto;
   padding: 1.6rem 0 0 0rem;
   background: #fbfbf9;
-  color: rgb(35, 35, 35);
+  color: #4c0f35;
   height: 10vw;
 }
 
@@ -196,6 +196,12 @@ header {
   margin: -18% 45% 0 17.5%;
   font-size: 2.2rem;
 }*/
+
+.main-about {
+  max-width: 70rem;
+  margin: 0 auto;
+  font-size: 3.2rem;
+}
 
 
 /* Text italic in about */
