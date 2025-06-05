@@ -97,10 +97,10 @@ nav {
 #niccole-porras-home a {
   color: #847e69;
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -184,10 +184,10 @@ header {
 .niccole-porras-banner a {
   color: #745c71;
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -197,7 +197,7 @@ header {
 .main-about {
   float: left;
   margin: -18% 45% 0 17.5%;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 /*.main-about {
@@ -208,12 +208,12 @@ header {
 
 /* Text italic in about */
 .main-about i {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
 }
 
 /* Text links in about */
 .link-in-text {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-style: italic;
   color: #4c0f35;
 }
@@ -295,8 +295,8 @@ header {
   font-family: "Adobe Garamond Pro";
   font-weight: normal;
   font-style: italic;
-  color: #8d8a7c;
-  font-size: 2.2rem;
+  color: #835a6b;
+  font-size: 1.5rem;
 }
 
 .mail-under-pic {
