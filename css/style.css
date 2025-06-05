@@ -93,11 +93,19 @@ nav {
   height: 10vw;
 }
 
+.social-icons a {
+  font-size: 28px;       /* or 2em, or any size you prefer */
+  margin-right: 12px;    /* space between icons */
+  color: #745c71;        /* adjust to match your palette */
+  text-decoration: none; /* removes underline */
+  transition: transform 0.2s ease; /* optional hover effect */
+}
+
 /* niccole ("home" link) on main page */
 #niccole-porras-home a {
   color: #847e69;
   display: inline-block;
-  font-size: 3vw;
+  font-size: 4vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
@@ -184,7 +192,7 @@ header {
 .niccole-porras-banner a {
   color: #745c71;
   display: inline-block;
-  font-size: 3vw;
+  font-size: 4vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
@@ -197,7 +205,7 @@ header {
 .main-about {
   float: left;
   margin: -18% 45% 0 17.5%;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 /*.main-about {
