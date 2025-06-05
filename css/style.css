@@ -182,6 +182,7 @@ header {
 
 /* niccole on non-home pages */
 .niccole-porras-banner a {
+  color: #745c71;
   display: inline-block;
   font-size: 4vw;
   transform: translateY(50%);
@@ -189,6 +190,8 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+
+
 
 /* Text in about */
 /*.main-about {
@@ -274,7 +277,7 @@ header {
   font-size: 2.2rem;
 }
 
-#rounded-niccole {
+#picture-niccole {
   display: inline-block;
   margin-left: 63%;
   margin-right: 15%;
