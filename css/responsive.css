@@ -82,10 +82,10 @@
   .niccole-porras-banner a {
     display: inline-block;
     transform: translateY(0%);
-    font-size: 10vw;
+    font-size: 8vw;
   }
 
-  #rounded-niccole {
+  .picture-niccole {
     width: 45%;
     margin-left: 25%;
     margin-right: 25%;
