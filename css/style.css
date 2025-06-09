@@ -94,7 +94,7 @@ nav {
 }
 
 .social-icons a {
-  font-size: 28px;       /* or 2em, or any size you prefer */
+  font-size: 30px;       /* or 2em, or any size you prefer */
   margin-right: 12px;    /* space between icons */
   color: #745c71;        /* adjust to match your palette */
   text-decoration: none; /* removes underline */
@@ -192,7 +192,7 @@ header {
 .niccole-porras-banner a {
   color: #745c71;
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3.5vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
