@@ -123,12 +123,12 @@ nav ul {
 nav li {
   float: left;
   margin: 0rem 0rem 0rem 2.8vw;
+  color: #745c71
 }
 
 /* Size of elements of ul */
 nav a {
-  font-size: 2vw;
-  color: #745c71
+  font-size: 1.8vw;
 }
 
 /* Colour of targeted link */
@@ -193,7 +193,7 @@ header {
 .niccole-porras-banner a {
   color: #745c71;
   display: inline-block;
-  font-size: vw;
+  font-size: 2.5vw;
   transform: translateY(50%);
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
